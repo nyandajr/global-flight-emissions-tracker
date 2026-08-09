@@ -1,0 +1,11 @@
+# Large, regeneratable caches -- never commit these (91MB + 36MB), the VM
+# pipeline rebuilds them from OpenSky's public database as needed.
+data/cache/aircraftDatabase.csv
+data/cache/icao24_to_category.json
+data/cache/last_seen.json
+
+__pycache__/
+*.pyc
+.env
+venv/
+.venv/
