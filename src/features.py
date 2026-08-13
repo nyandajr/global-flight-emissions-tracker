@@ -99,15 +99,26 @@ def fleet_efficiency_clusters(enriched_states, n_clusters=3):
     return result
 
 
-def dark_aircraft_check(enriched_states, previous_seen):
+def dark_aircraft_check(enriched_states, previous_seen, all_current_icao24s=None):
     """Compares this snapshot's tracked aircraft against the previous run's,
     flagging ones that were airborne and clearly visible last time but are
     absent now, IF their last known position was inside a watch region.
 
-    Explicitly a low-confidence heuristic: ADS-B coverage gaps between
-    consecutive receiver handoffs are the far more common explanation than a
-    deliberate transponder-off event. Labeled as such downstream.
+    `all_current_icao24s` should include EVERY aircraft in this snapshot,
+    airborne or on the ground -- without it, a plane that simply landed
+    normally between polls looks identical to one that vanished, since it
+    drops out of the airborne-only view either way. Originally missed this,
+    which flagged completely normal landings (e.g. El Al/Israir/Arkia
+    aircraft landing at Tel Aviv, inside the eastern-Mediterranean watch box)
+    as "dark."
+
+    Explicitly a low-confidence heuristic even with that fix: ADS-B coverage
+    gaps between consecutive receiver handoffs are still a far more common
+    explanation than a deliberate transponder-off event. Labeled as such
+    downstream.
     """
+    all_current_icao24s = all_current_icao24s or set()
+
     current_seen = {}
     for s in enriched_states:
         icao24 = s.get("icao24")
@@ -120,8 +131,8 @@ def dark_aircraft_check(enriched_states, previous_seen):
 
     flagged = []
     for icao24, last in previous_seen.items():
-        if icao24 in current_seen:
-            continue
+        if icao24 in current_seen or icao24 in all_current_icao24s:
+            continue  # still airborne, or reappeared on the ground -- just landed normally
         if last.get("altitude") is None or last["altitude"] < 1000:
             continue  # was low/near airport, probably just landed
         lat, lon = last.get("lat"), last.get("lon")

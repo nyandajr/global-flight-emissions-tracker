@@ -8,7 +8,7 @@ import json
 from datetime import datetime, timezone
 from pathlib import Path
 
-from aircraft_db import load_lookup
+from aircraft_db import lookup_many
 from config import DASHBOARD_JSON, HISTORY_CSV, REPO_DIR
 from emissions import enrich_state, incremental_emissions_kg
 from features import (
@@ -68,16 +68,21 @@ def write_dashboard(payload):
 
 
 def run():
-    aircraft_lookup = load_lookup()
     raw_states, opensky_time = fetch_states()
 
     airborne = [s for s in raw_states if not s.get("on_ground")]
+    # Only fetch the aircraft actually seen this snapshot (~10k), not the
+    # full 520k-aircraft database -- keeps memory flat regardless of how
+    # large OpenSky's underlying metadata grows. See aircraft_db.py's
+    # module docstring for why this matters on a 1GB-RAM VM.
+    aircraft_lookup = lookup_many([s.get("icao24") for s in airborne])
     enriched = [enrich_state(s, aircraft_lookup) for s in airborne]
 
     incremental_co2 = incremental_emissions_kg(enriched, INTERVAL_HOURS)
 
     previous_seen = _load_last_seen()
-    dark_flags, current_seen = dark_aircraft_check(enriched, previous_seen)
+    all_current_icao24s = {s.get("icao24") for s in raw_states if s.get("icao24")}
+    dark_flags, current_seen = dark_aircraft_check(enriched, previous_seen, all_current_icao24s)
     _save_last_seen(current_seen)
 
     now = datetime.now(timezone.utc)

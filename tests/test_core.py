@@ -43,9 +43,20 @@ def test_dark_aircraft_check_flags_watch_region_only():
         "def456": {"lat": 51.5, "lon": -0.1, "altitude": 9000, "callsign": "NORMAL1"},   # London, not a watch region
         "ghi789": {"lat": 45.5, "lon": 35.0, "altitude": 500, "callsign": "LOWALT"},     # watch region but too low -> probably just landed
     }
-    flagged, _ = dark_aircraft_check([], previous_seen)
+    flagged, _ = dark_aircraft_check([], previous_seen, all_current_icao24s=set())
     flagged_ids = {f["icao24"] for f in flagged}
     assert flagged_ids == {"abc123"}
+
+
+def test_dark_aircraft_check_excludes_normal_landings():
+    # jkl999 was airborne at cruise altitude over the watch region last time,
+    # but reappears on the ground this snapshot (e.g. it landed at Tel Aviv)
+    # -- must NOT be flagged, even though it's absent from the airborne view.
+    previous_seen = {
+        "jkl999": {"lat": 32.0, "lon": 34.8, "altitude": 2000, "callsign": "ELY358"},  # eastern Mediterranean
+    }
+    flagged, _ = dark_aircraft_check([], previous_seen, all_current_icao24s={"jkl999"})
+    assert flagged == []
 
 
 if __name__ == "__main__":
@@ -54,4 +65,5 @@ if __name__ == "__main__":
     test_classify_region_outside_all_boxes()
     test_airline_from_callsign()
     test_dark_aircraft_check_flags_watch_region_only()
+    test_dark_aircraft_check_excludes_normal_landings()
     print("ALL TESTS PASSED")
