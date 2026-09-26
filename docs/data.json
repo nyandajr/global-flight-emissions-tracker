@@ -1,104 +1,108 @@
 {
-  "generated_at": "2026-09-26T07:17:27.962520+00:00",
-  "opensky_snapshot_time": 1790407031,
-  "aircraft_tracked_total": 6528,
-  "aircraft_airborne": 5843,
-  "co2_kg_today_cumulative": 403855484.4,
-  "co2_kg_this_snapshot": 12841924.0,
+  "generated_at": "2026-09-26T07:32:09.886637+00:00",
+  "opensky_snapshot_time": 1790407916,
+  "aircraft_tracked_total": 6606,
+  "aircraft_airborne": 5923,
+  "co2_kg_today_cumulative": 416768935.0,
+  "co2_kg_this_snapshot": 12913450.6,
   "phase_breakdown_pct": {
-    "descent": 20.7,
-    "climb": 15.9,
-    "cruise": 63.4
+    "cruise": 61.8,
+    "descent": 21.6,
+    "climb": 16.6
   },
   "region_aircraft_counts": {
-    "europe": 3155,
-    "north_america": 837,
-    "east_asia": 665,
-    "other": 456,
-    "south_asia": 223,
-    "oceania": 183,
+    "europe": 3284,
+    "north_america": 795,
+    "east_asia": 640,
+    "other": 445,
+    "south_asia": 239,
+    "oceania": 179,
     "middle_east": 145,
-    "south_america": 107,
-    "east_africa": 7
+    "south_america": 120,
+    "east_africa": 12
   },
   "airline_leaderboard": [
     {
       "airline": "RYR",
-      "co2_kg_per_hour": 2592637.8,
-      "aircraft_tracked": 341
-    },
-    {
-      "airline": "UAL",
-      "co2_kg_per_hour": 1627084.0,
-      "aircraft_tracked": 148
+      "co2_kg_per_hour": 2784434.0,
+      "aircraft_tracked": 353
     },
     {
       "airline": "THY",
-      "co2_kg_per_hour": 1592008.0,
-      "aircraft_tracked": 152
+      "co2_kg_per_hour": 1592324.0,
+      "aircraft_tracked": 158
+    },
+    {
+      "airline": "UAL",
+      "co2_kg_per_hour": 1560724.0,
+      "aircraft_tracked": 138
     },
     {
       "airline": "DAL",
-      "co2_kg_per_hour": 1270952.0,
-      "aircraft_tracked": 109
-    },
-    {
-      "airline": "UAE",
-      "co2_kg_per_hour": 987500.0,
-      "aircraft_tracked": 57
-    },
-    {
-      "airline": "EZY",
-      "co2_kg_per_hour": 962536.0,
-      "aircraft_tracked": 124
+      "co2_kg_per_hour": 1273480.0,
+      "aircraft_tracked": 105
     },
     {
       "airline": "QTR",
-      "co2_kg_per_hour": 908500.0,
-      "aircraft_tracked": 52
+      "co2_kg_per_hour": 1010884.0,
+      "aircraft_tracked": 58
     },
     {
-      "airline": "AAL",
-      "co2_kg_per_hour": 867420.0,
-      "aircraft_tracked": 74
+      "airline": "UAE",
+      "co2_kg_per_hour": 983708.0,
+      "aircraft_tracked": 57
     },
     {
       "airline": "BAW",
-      "co2_kg_per_hour": 863628.0,
-      "aircraft_tracked": 85
+      "co2_kg_per_hour": 914820.0,
+      "aircraft_tracked": 86
     },
     {
       "airline": "EXS",
-      "co2_kg_per_hour": 829816.0,
-      "aircraft_tracked": 99
+      "co2_kg_per_hour": 857940.0,
+      "aircraft_tracked": 104
+    },
+    {
+      "airline": "EZY",
+      "co2_kg_per_hour": 825708.0,
+      "aircraft_tracked": 111
+    },
+    {
+      "airline": "AAL",
+      "co2_kg_per_hour": 814648.0,
+      "aircraft_tracked": 75
     },
     {
       "airline": "DLH",
-      "co2_kg_per_hour": 758400.0,
-      "aircraft_tracked": 81
+      "co2_kg_per_hour": 766932.0,
+      "aircraft_tracked": 85
     },
     {
       "airline": "ANA",
-      "co2_kg_per_hour": 692356.0,
-      "aircraft_tracked": 55
-    },
-    {
-      "airline": "CSN",
-      "co2_kg_per_hour": 653488.0,
-      "aircraft_tracked": 65
-    },
-    {
-      "airline": "SAS",
-      "co2_kg_per_hour": 647168.0,
-      "aircraft_tracked": 94
+      "co2_kg_per_hour": 709736.0,
+      "aircraft_tracked": 58
     },
     {
       "airline": "IGO",
-      "co2_kg_per_hour": 640848.0,
-      "aircraft_tracked": 86
+      "co2_kg_per_hour": 692356.0,
+      "aircraft_tracked": 96
+    },
+    {
+      "airline": "AFR",
+      "co2_kg_per_hour": 614936.0,
+      "aircraft_tracked": 58
+    },
+    {
+      "airline": "JAL",
+      "co2_kg_per_hour": 609564.0,
+      "aircraft_tracked": 45
     }
   ],
   "fleet_efficiency_clusters": [
+    {
+      "airline": "AXB",
+      "cluster": "older_or_regional_fleet_mix"
+    },
     {
       "airline": "TVF",
       "cluster": "mixed_fleet"
@@ -106,10 +110,6 @@
     {
       "airline": "AIC",
       "cluster": "mixed_fleet"
-    },
-    {
-      "airline": "AXB",
-      "cluster": "older_or_regional_fleet_mix"
     },
     {
       "airline": "PTN",
@@ -120,12 +120,28 @@
       "cluster": "older_or_regional_fleet_mix"
     },
     {
+      "airline": "SAA",
+      "cluster": "mixed_fleet"
+    },
+    {
       "airline": "AVA",
       "cluster": "mixed_fleet"
     },
     {
+      "airline": "JAL",
+      "cluster": "modern_fleet_mix"
+    },
+    {
       "airline": "EZY",
       "cluster": "mixed_fleet"
+    },
+    {
+      "airline": "AWQ",
+      "cluster": "mixed_fleet"
+    },
+    {
+      "airline": "MBU",
+      "cluster": "older_or_regional_fleet_mix"
     },
     {
       "airline": "NSZ",
@@ -140,16 +156,12 @@
       "cluster": "older_or_regional_fleet_mix"
     },
     {
-      "airline": "CFG",
-      "cluster": "older_or_regional_fleet_mix"
-    },
-    {
-      "airline": "MBU",
-      "cluster": "older_or_regional_fleet_mix"
-    },
-    {
       "airline": "DAL",
-      "cluster": "mixed_fleet"
+      "cluster": "modern_fleet_mix"
+    },
+    {
+      "airline": "WMT",
+      "cluster": "older_or_regional_fleet_mix"
     },
     {
       "airline": "WZZ",
@@ -157,7 +169,7 @@
     },
     {
       "airline": "ANA",
-      "cluster": "mixed_fleet"
+      "cluster": "modern_fleet_mix"
     },
     {
       "airline": "LNI",
@@ -180,11 +192,11 @@
       "cluster": "older_or_regional_fleet_mix"
     },
     {
-      "airline": "VOE",
+      "airline": "EJU",
       "cluster": "mixed_fleet"
     },
     {
-      "airline": "EJU",
+      "airline": "VOE",
       "cluster": "mixed_fleet"
     },
     {
@@ -204,8 +216,8 @@
       "cluster": "mixed_fleet"
     },
     {
-      "airline": "JAL",
-      "cluster": "modern_fleet_mix"
+      "airline": "AMX",
+      "cluster": "older_or_regional_fleet_mix"
     },
     {
       "airline": "GTI",
@@ -224,19 +236,15 @@
       "cluster": "mixed_fleet"
     },
     {
-      "airline": "LNK",
+      "airline": "VLG",
       "cluster": "mixed_fleet"
     },
     {
-      "airline": "THA",
-      "cluster": "modern_fleet_mix"
-    },
-    {
-      "airline": "FDX",
-      "cluster": "modern_fleet_mix"
-    },
-    {
       "airline": "ARG",
+      "cluster": "older_or_regional_fleet_mix"
+    },
+    {
+      "airline": "GIA",
       "cluster": "mixed_fleet"
     },
     {
@@ -264,16 +272,20 @@
       "cluster": "mixed_fleet"
     },
     {
+      "airline": "AEA",
+      "cluster": "older_or_regional_fleet_mix"
+    },
+    {
+      "airline": "IBE",
+      "cluster": "mixed_fleet"
+    },
+    {
       "airline": "EJA",
       "cluster": "mixed_fleet"
     },
     {
-      "airline": "WMT",
-      "cluster": "older_or_regional_fleet_mix"
-    },
-    {
       "airline": "TAM",
-      "cluster": "mixed_fleet"
+      "cluster": "older_or_regional_fleet_mix"
     },
     {
       "airline": "ROT",
@@ -281,22 +293,14 @@
     },
     {
       "airline": "CCA",
-      "cluster": "mixed_fleet"
+      "cluster": "modern_fleet_mix"
     },
     {
-      "airline": "IBE",
+      "airline": "AZU",
       "cluster": "mixed_fleet"
-    },
-    {
-      "airline": "AEA",
-      "cluster": "older_or_regional_fleet_mix"
     },
     {
       "airline": "CXA",
-      "cluster": "mixed_fleet"
-    },
-    {
-      "airline": "CSN",
       "cluster": "mixed_fleet"
     },
     {
@@ -304,12 +308,12 @@
       "cluster": "mixed_fleet"
     },
     {
-      "airline": "TBA",
-      "cluster": "mixed_fleet"
+      "airline": "TPA",
+      "cluster": "modern_fleet_mix"
     },
     {
       "airline": "KLM",
-      "cluster": "modern_fleet_mix"
+      "cluster": "mixed_fleet"
     },
     {
       "airline": "VOI",
@@ -320,15 +324,7 @@
       "cluster": "mixed_fleet"
     },
     {
-      "airline": "AMX",
-      "cluster": "older_or_regional_fleet_mix"
-    },
-    {
-      "airline": "SFR",
-      "cluster": "older_or_regional_fleet_mix"
-    },
-    {
-      "airline": "GIA",
+      "airline": "CSN",
       "cluster": "mixed_fleet"
     },
     {
@@ -340,16 +336,12 @@
       "cluster": "mixed_fleet"
     },
     {
-      "airline": "SEU",
+      "airline": "SDG",
       "cluster": "older_or_regional_fleet_mix"
     },
     {
-      "airline": "AZU",
-      "cluster": "older_or_regional_fleet_mix"
-    },
-    {
-      "airline": "FFT",
-      "cluster": "older_or_regional_fleet_mix"
+      "airline": "THA",
+      "cluster": "modern_fleet_mix"
     },
     {
       "airline": "BAW",
@@ -360,15 +352,11 @@
       "cluster": "mixed_fleet"
     },
     {
-      "airline": "VLG",
-      "cluster": "mixed_fleet"
-    },
-    {
       "airline": "AKJ",
       "cluster": "older_or_regional_fleet_mix"
     },
     {
-      "airline": "ACA",
+      "airline": "FDX",
       "cluster": "modern_fleet_mix"
     },
     {
@@ -400,19 +388,27 @@
       "cluster": "modern_fleet_mix"
     },
     {
-      "airline": "VIV",
-      "cluster": "older_or_regional_fleet_mix"
-    },
-    {
-      "airline": "ASA",
-      "cluster": "mixed_fleet"
-    },
-    {
       "airline": "SWT",
       "cluster": "mixed_fleet"
     },
     {
+      "airline": "VIV",
+      "cluster": "older_or_regional_fleet_mix"
+    },
+    {
+      "airline": "IAW",
+      "cluster": "mixed_fleet"
+    },
+    {
+      "airline": "TSC",
+      "cluster": "modern_fleet_mix"
+    },
+    {
       "airline": "CAI",
+      "cluster": "mixed_fleet"
+    },
+    {
+      "airline": "ASA",
       "cluster": "mixed_fleet"
     },
     {
@@ -420,12 +416,12 @@
       "cluster": "older_or_regional_fleet_mix"
     },
     {
-      "airline": "CXI",
-      "cluster": "mixed_fleet"
-    },
-    {
       "airline": "SKQ",
       "cluster": "older_or_regional_fleet_mix"
+    },
+    {
+      "airline": "ACA",
+      "cluster": "modern_fleet_mix"
     },
     {
       "airline": "ATN",
@@ -444,7 +440,11 @@
       "cluster": "older_or_regional_fleet_mix"
     },
     {
-      "airline": "UBG",
+      "airline": "CKS",
+      "cluster": "modern_fleet_mix"
+    },
+    {
+      "airline": "SFR",
       "cluster": "older_or_regional_fleet_mix"
     },
     {
@@ -452,7 +452,11 @@
       "cluster": "mixed_fleet"
     },
     {
-      "airline": "VJA",
+      "airline": "VOS",
+      "cluster": "mixed_fleet"
+    },
+    {
+      "airline": "BKP",
       "cluster": "mixed_fleet"
     },
     {
@@ -464,15 +468,15 @@
       "cluster": "mixed_fleet"
     },
     {
-      "airline": "SKW",
-      "cluster": "mixed_fleet"
+      "airline": "IBB",
+      "cluster": "older_or_regional_fleet_mix"
+    },
+    {
+      "airline": "FFT",
+      "cluster": "older_or_regional_fleet_mix"
     },
     {
       "airline": "EFW",
-      "cluster": "mixed_fleet"
-    },
-    {
-      "airline": "MMA",
       "cluster": "mixed_fleet"
     },
     {
@@ -500,10 +504,6 @@
       "cluster": "older_or_regional_fleet_mix"
     },
     {
-      "airline": "LBQ",
-      "cluster": "older_or_regional_fleet_mix"
-    },
-    {
       "airline": "MSC",
       "cluster": "older_or_regional_fleet_mix"
     },
@@ -520,15 +520,19 @@
       "cluster": "older_or_regional_fleet_mix"
     },
     {
-      "airline": "SFJ",
+      "airline": "MGL",
       "cluster": "mixed_fleet"
     },
     {
-      "airline": "IBX",
+      "airline": "CFG",
       "cluster": "older_or_regional_fleet_mix"
     },
     {
-      "airline": "CSZ",
+      "airline": "AWA",
+      "cluster": "older_or_regional_fleet_mix"
+    },
+    {
+      "airline": "IBX",
       "cluster": "older_or_regional_fleet_mix"
     },
     {
@@ -536,7 +540,7 @@
       "cluster": "mixed_fleet"
     },
     {
-      "airline": "BKP",
+      "airline": "CSZ",
       "cluster": "mixed_fleet"
     },
     {
@@ -548,16 +552,16 @@
       "cluster": "mixed_fleet"
     },
     {
-      "airline": "ASI",
-      "cluster": "older_or_regional_fleet_mix"
-    },
-    {
       "airline": "TVS",
       "cluster": "mixed_fleet"
     },
     {
-      "airline": "CES",
-      "cluster": "mixed_fleet"
+      "airline": "LNK",
+      "cluster": "older_or_regional_fleet_mix"
+    },
+    {
+      "airline": "ABY",
+      "cluster": "older_or_regional_fleet_mix"
     },
     {
       "airline": "VIR",
@@ -584,27 +588,11 @@
       "cluster": "mixed_fleet"
     },
     {
-      "airline": "TSC",
-      "cluster": "modern_fleet_mix"
-    },
-    {
-      "airline": "ABY",
-      "cluster": "older_or_regional_fleet_mix"
-    },
-    {
       "airline": "JST",
       "cluster": "mixed_fleet"
     },
     {
-      "airline": "CRK",
-      "cluster": "older_or_regional_fleet_mix"
-    },
-    {
-      "airline": "ETD",
-      "cluster": "older_or_regional_fleet_mix"
-    },
-    {
-      "airline": "ADO",
+      "airline": "SFJ",
       "cluster": "mixed_fleet"
     },
     {
@@ -612,15 +600,39 @@
       "cluster": "modern_fleet_mix"
     },
     {
+      "airline": "HKE",
+      "cluster": "older_or_regional_fleet_mix"
+    },
+    {
+      "airline": "CRK",
+      "cluster": "mixed_fleet"
+    },
+    {
+      "airline": "ETD",
+      "cluster": "older_or_regional_fleet_mix"
+    },
+    {
+      "airline": "CYP",
+      "cluster": "older_or_regional_fleet_mix"
+    },
+    {
+      "airline": "ADO",
+      "cluster": "mixed_fleet"
+    },
+    {
+      "airline": "HBH",
+      "cluster": "mixed_fleet"
+    },
+    {
+      "airline": "CES",
+      "cluster": "mixed_fleet"
+    },
+    {
       "airline": "VSV",
       "cluster": "mixed_fleet"
     },
     {
       "airline": "TLM",
-      "cluster": "older_or_regional_fleet_mix"
-    },
-    {
-      "airline": "IBB",
       "cluster": "older_or_regional_fleet_mix"
     },
     {
@@ -640,14 +652,6 @@
       "cluster": "mixed_fleet"
     },
     {
-      "airline": "CSC",
-      "cluster": "mixed_fleet"
-    },
-    {
-      "airline": "CHX",
-      "cluster": "older_or_regional_fleet_mix"
-    },
-    {
       "airline": "TRA",
       "cluster": "mixed_fleet"
     },
@@ -660,15 +664,31 @@
       "cluster": "mixed_fleet"
     },
     {
+      "airline": "CDG",
+      "cluster": "mixed_fleet"
+    },
+    {
+      "airline": "CSC",
+      "cluster": "mixed_fleet"
+    },
+    {
       "airline": "CSS",
       "cluster": "modern_fleet_mix"
+    },
+    {
+      "airline": "CSH",
+      "cluster": "mixed_fleet"
     },
     {
       "airline": "CDC",
       "cluster": "mixed_fleet"
     },
     {
-      "airline": "HKE",
+      "airline": "TVJ",
+      "cluster": "older_or_regional_fleet_mix"
+    },
+    {
+      "airline": "CHX",
       "cluster": "older_or_regional_fleet_mix"
     },
     {
@@ -685,10 +705,6 @@
     },
     {
       "airline": "RJA",
-      "cluster": "modern_fleet_mix"
-    },
-    {
-      "airline": "AHY",
       "cluster": "older_or_regional_fleet_mix"
     },
     {
@@ -708,8 +724,12 @@
       "cluster": "modern_fleet_mix"
     },
     {
-      "airline": "MAS",
+      "airline": "SKW",
       "cluster": "mixed_fleet"
+    },
+    {
+      "airline": "MAS",
+      "cluster": "older_or_regional_fleet_mix"
     },
     {
       "airline": "SIA",
@@ -721,7 +741,7 @@
     },
     {
       "airline": "LHX",
-      "cluster": "older_or_regional_fleet_mix"
+      "cluster": "mixed_fleet"
     },
     {
       "airline": "NJE",
@@ -732,12 +752,28 @@
       "cluster": "modern_fleet_mix"
     },
     {
+      "airline": "MFX",
+      "cluster": "older_or_regional_fleet_mix"
+    },
+    {
+      "airline": "SJV",
+      "cluster": "mixed_fleet"
+    },
+    {
+      "airline": "JTA",
+      "cluster": "mixed_fleet"
+    },
+    {
       "airline": "APJ",
       "cluster": "mixed_fleet"
     },
     {
-      "airline": "MFX",
+      "airline": "ASI",
       "cluster": "older_or_regional_fleet_mix"
+    },
+    {
+      "airline": "GFA",
+      "cluster": "modern_fleet_mix"
     },
     {
       "airline": "AFL",
@@ -752,19 +788,15 @@
       "cluster": "mixed_fleet"
     },
     {
-      "airline": "GFA",
-      "cluster": "older_or_regional_fleet_mix"
-    },
-    {
       "airline": "EVA",
       "cluster": "modern_fleet_mix"
     },
     {
-      "airline": "UIA",
+      "airline": "ETH",
       "cluster": "older_or_regional_fleet_mix"
     },
     {
-      "airline": "ETH",
+      "airline": "CAL",
       "cluster": "modern_fleet_mix"
     },
     {
@@ -780,12 +812,8 @@
       "cluster": "mixed_fleet"
     },
     {
-      "airline": "MDA",
-      "cluster": "mixed_fleet"
-    },
-    {
-      "airline": "CAL",
-      "cluster": "modern_fleet_mix"
+      "airline": "REH",
+      "cluster": "older_or_regional_fleet_mix"
     },
     {
       "airline": "BTI",
@@ -796,15 +824,7 @@
       "cluster": "mixed_fleet"
     },
     {
-      "airline": "CKS",
-      "cluster": "modern_fleet_mix"
-    },
-    {
-      "airline": "GEC",
-      "cluster": "modern_fleet_mix"
-    },
-    {
-      "airline": "HYS",
+      "airline": "CUA",
       "cluster": "mixed_fleet"
     },
     {
@@ -813,15 +833,15 @@
     },
     {
       "airline": "CHH",
+      "cluster": "mixed_fleet"
+    },
+    {
+      "airline": "GEC",
       "cluster": "modern_fleet_mix"
     },
     {
-      "airline": "HBH",
-      "cluster": "mixed_fleet"
-    },
-    {
       "airline": "ASL",
-      "cluster": "mixed_fleet"
+      "cluster": "older_or_regional_fleet_mix"
     },
     {
       "airline": "JNA",
@@ -832,11 +852,27 @@
       "cluster": "modern_fleet_mix"
     },
     {
-      "airline": "SWR",
+      "airline": "QQE",
       "cluster": "mixed_fleet"
     },
     {
-      "airline": "SJX",
+      "airline": "MDA",
+      "cluster": "older_or_regional_fleet_mix"
+    },
+    {
+      "airline": "SWR",
+      "cluster": "modern_fleet_mix"
+    },
+    {
+      "airline": "UIA",
+      "cluster": "older_or_regional_fleet_mix"
+    },
+    {
+      "airline": "TWB",
+      "cluster": "older_or_regional_fleet_mix"
+    },
+    {
+      "airline": "JJA",
       "cluster": "mixed_fleet"
     },
     {
@@ -844,15 +880,23 @@
       "cluster": "modern_fleet_mix"
     },
     {
-      "airline": "TWB",
+      "airline": "SJO",
       "cluster": "mixed_fleet"
     },
     {
-      "airline": "JJA",
+      "airline": "AHY",
+      "cluster": "older_or_regional_fleet_mix"
+    },
+    {
+      "airline": "CXI",
       "cluster": "mixed_fleet"
     },
     {
       "airline": "TVP",
+      "cluster": "mixed_fleet"
+    },
+    {
+      "airline": "SJX",
       "cluster": "mixed_fleet"
     },
     {
@@ -868,6 +912,10 @@
       "cluster": "older_or_regional_fleet_mix"
     },
     {
+      "airline": "LXJ",
+      "cluster": "older_or_regional_fleet_mix"
+    },
+    {
       "airline": "EIN",
       "cluster": "mixed_fleet"
     },
@@ -880,6 +928,10 @@
       "cluster": "mixed_fleet"
     },
     {
+      "airline": "AUR",
+      "cluster": "older_or_regional_fleet_mix"
+    },
+    {
       "airline": "ABL",
       "cluster": "mixed_fleet"
     },
@@ -888,20 +940,36 @@
       "cluster": "mixed_fleet"
     },
     {
-      "airline": "LOG",
+      "airline": "ESR",
       "cluster": "older_or_regional_fleet_mix"
-    },
-    {
-      "airline": "GCR",
-      "cluster": "mixed_fleet"
     },
     {
       "airline": "RUK",
       "cluster": "older_or_regional_fleet_mix"
     },
     {
+      "airline": "SDM",
+      "cluster": "mixed_fleet"
+    },
+    {
+      "airline": "EOK",
+      "cluster": "older_or_regional_fleet_mix"
+    },
+    {
+      "airline": "HST",
+      "cluster": "older_or_regional_fleet_mix"
+    },
+    {
+      "airline": "LOG",
+      "cluster": "older_or_regional_fleet_mix"
+    },
+    {
+      "airline": "RXA",
+      "cluster": "older_or_regional_fleet_mix"
+    },
+    {
       "airline": "CBJ",
-      "cluster": "modern_fleet_mix"
+      "cluster": "mixed_fleet"
     },
     {
       "airline": "SNJ",
@@ -912,14 +980,6 @@
       "cluster": "mixed_fleet"
     },
     {
-      "airline": "EOK",
-      "cluster": "older_or_regional_fleet_mix"
-    },
-    {
-      "airline": "ESR",
-      "cluster": "older_or_regional_fleet_mix"
-    },
-    {
       "airline": "RYS",
       "cluster": "mixed_fleet"
     },
@@ -928,11 +988,11 @@
       "cluster": "mixed_fleet"
     },
     {
-      "airline": "QQE",
-      "cluster": "mixed_fleet"
+      "airline": "HGB",
+      "cluster": "older_or_regional_fleet_mix"
     },
     {
-      "airline": "HGB",
+      "airline": "ICE",
       "cluster": "older_or_regional_fleet_mix"
     },
     {
@@ -940,12 +1000,16 @@
       "cluster": "older_or_regional_fleet_mix"
     },
     {
-      "airline": "DAH",
+      "airline": "DKH",
       "cluster": "mixed_fleet"
     },
     {
-      "airline": "KNE",
+      "airline": "PTA",
       "cluster": "older_or_regional_fleet_mix"
+    },
+    {
+      "airline": "KNE",
+      "cluster": "mixed_fleet"
     },
     {
       "airline": "HLJ",
@@ -964,7 +1028,7 @@
       "cluster": "modern_fleet_mix"
     },
     {
-      "airline": "MNE",
+      "airline": "DWI",
       "cluster": "older_or_regional_fleet_mix"
     },
     {
@@ -972,27 +1036,7 @@
       "cluster": "mixed_fleet"
     },
     {
-      "airline": "LBT",
-      "cluster": "mixed_fleet"
-    },
-    {
-      "airline": "SDM",
-      "cluster": "mixed_fleet"
-    },
-    {
-      "airline": "DWI",
-      "cluster": "older_or_regional_fleet_mix"
-    },
-    {
-      "airline": "SBI",
-      "cluster": "mixed_fleet"
-    },
-    {
-      "airline": "EZS",
-      "cluster": "mixed_fleet"
-    },
-    {
-      "airline": "CEB",
+      "airline": "MNE",
       "cluster": "older_or_regional_fleet_mix"
     },
     {
@@ -1000,8 +1044,24 @@
       "cluster": "older_or_regional_fleet_mix"
     },
     {
-      "airline": "RZO",
+      "airline": "LBT",
+      "cluster": "mixed_fleet"
+    },
+    {
+      "airline": "DAH",
+      "cluster": "mixed_fleet"
+    },
+    {
+      "airline": "CEB",
       "cluster": "older_or_regional_fleet_mix"
+    },
+    {
+      "airline": "EZS",
+      "cluster": "mixed_fleet"
+    },
+    {
+      "airline": "KQA",
+      "cluster": "modern_fleet_mix"
     },
     {
       "airline": "NOS",
@@ -1010,6 +1070,14 @@
     {
       "airline": "POE",
       "cluster": "older_or_regional_fleet_mix"
+    },
+    {
+      "airline": "OMA",
+      "cluster": "mixed_fleet"
+    },
+    {
+      "airline": "ALK",
+      "cluster": "modern_fleet_mix"
     },
     {
       "airline": "TUI",
@@ -1024,20 +1092,12 @@
       "cluster": "mixed_fleet"
     },
     {
-      "airline": "HLC",
-      "cluster": "older_or_regional_fleet_mix"
-    },
-    {
       "airline": "HVN",
-      "cluster": "mixed_fleet"
+      "cluster": "modern_fleet_mix"
     },
     {
       "airline": "VKG",
       "cluster": "older_or_regional_fleet_mix"
-    },
-    {
-      "airline": "ALK",
-      "cluster": "modern_fleet_mix"
     },
     {
       "airline": "VJC",
@@ -1052,10 +1112,6 @@
       "cluster": "older_or_regional_fleet_mix"
     },
     {
-      "airline": "CSH",
-      "cluster": "mixed_fleet"
-    },
-    {
       "airline": "CND",
       "cluster": "older_or_regional_fleet_mix"
     },
@@ -1068,11 +1124,15 @@
       "cluster": "modern_fleet_mix"
     },
     {
-      "airline": "MXD",
-      "cluster": "mixed_fleet"
+      "airline": "DHX",
+      "cluster": "older_or_regional_fleet_mix"
     },
     {
       "airline": "UZB",
+      "cluster": "modern_fleet_mix"
+    },
+    {
+      "airline": "MXD",
       "cluster": "mixed_fleet"
     },
     {
@@ -1088,8 +1148,12 @@
       "cluster": "mixed_fleet"
     },
     {
-      "airline": "MSR",
+      "airline": "NOK",
       "cluster": "mixed_fleet"
+    },
+    {
+      "airline": "MSR",
+      "cluster": "older_or_regional_fleet_mix"
     },
     {
       "airline": "VJT",
@@ -1104,16 +1168,12 @@
       "cluster": "mixed_fleet"
     },
     {
-      "airline": "FJO",
-      "cluster": "mixed_fleet"
-    },
-    {
-      "airline": "SWU",
+      "airline": "EAI",
       "cluster": "older_or_regional_fleet_mix"
     },
     {
-      "airline": "CMA",
-      "cluster": "modern_fleet_mix"
+      "airline": "FJO",
+      "cluster": "mixed_fleet"
     },
     {
       "airline": "FLI",
@@ -1121,26 +1181,18 @@
     },
     {
       "airline": "BOX",
-      "cluster": "modern_fleet_mix"
-    },
-    {
-      "airline": "AXY",
       "cluster": "older_or_regional_fleet_mix"
     },
     {
-      "airline": "EAI",
+      "airline": "LLR",
       "cluster": "older_or_regional_fleet_mix"
     },
     {
-      "airline": "KQA",
-      "cluster": "modern_fleet_mix"
+      "airline": "AEZ",
+      "cluster": "mixed_fleet"
     },
     {
-      "airline": "TVJ",
-      "cluster": "older_or_regional_fleet_mix"
-    },
-    {
-      "airline": "CSW",
+      "airline": "SBI",
       "cluster": "mixed_fleet"
     },
     {
@@ -1150,136 +1202,142 @@
   ],
   "dark_aircraft_flags": [
     {
-      "icao24": "74283a",
-      "callsign": "JAV281",
+      "icao24": "3c5ef2",
+      "callsign": "EWG42X",
       "last_region": "eastern_mediterranean",
-      "last_altitude_m": 5242.56
+      "last_altitude_m": 2636.52
     },
     {
-      "icao24": "780a71",
-      "callsign": "HKE844",
-      "last_region": "south_china_sea",
-      "last_altitude_m": 6324.6
-    },
-    {
-      "icao24": "683268",
-      "callsign": "VSV5291",
+      "icao24": "89644d",
+      "callsign": "UAE26K",
       "last_region": "eastern_mediterranean",
-      "last_altitude_m": 10058.4
+      "last_altitude_m": 3017.52
     },
     {
-      "icao24": "750202",
-      "callsign": "MAS073",
+      "icao24": "780ac0",
+      "callsign": "HKE670",
       "last_region": "south_china_sea",
-      "last_altitude_m": 7696.2
+      "last_altitude_m": 9250.68
     },
     {
-      "icao24": "76cd46",
-      "callsign": "SIA27",
+      "icao24": "780d1c",
+      "callsign": "CES6139",
       "last_region": "south_china_sea",
-      "last_altitude_m": 12192
+      "last_altitude_m": 7627.62
     },
     {
-      "icao24": "89910b",
-      "callsign": "CAL910",
-      "last_region": "south_china_sea",
-      "last_altitude_m": 8763
+      "icao24": "748026",
+      "callsign": "MEA272",
+      "last_region": "eastern_mediterranean",
+      "last_altitude_m": 1981.2
     },
     {
-      "icao24": "899119",
-      "callsign": "CAL852",
+      "icao24": "781500",
+      "callsign": "CSN397",
       "last_region": "south_china_sea",
       "last_altitude_m": 10058.4
     },
     {
-      "icao24": "8991bc",
-      "callsign": "CAL835",
+      "icao24": "899029",
+      "callsign": "TTW503",
+      "last_region": "south_china_sea",
+      "last_altitude_m": 10370.82
+    },
+    {
+      "icao24": "7801a3",
+      "callsign": "CPA629",
+      "last_region": "south_china_sea",
+      "last_altitude_m": 9281.16
+    },
+    {
+      "icao24": "7801b2",
+      "callsign": "HKE114",
+      "last_region": "south_china_sea",
+      "last_altitude_m": 6652.26
+    },
+    {
+      "icao24": "8991dc",
+      "callsign": "SJX745",
       "last_region": "south_china_sea",
       "last_altitude_m": 11582.4
     },
     {
-      "icao24": "8990f4",
-      "callsign": "CAL783",
-      "last_region": "south_china_sea",
-      "last_altitude_m": 12192
-    },
-    {
-      "icao24": "4bca68",
-      "callsign": "RHH202",
+      "icao24": "48c126",
+      "callsign": "RYR44KF",
       "last_region": "eastern_mediterranean",
-      "last_altitude_m": 2148.84
+      "last_altitude_m": 1851.66
     },
     {
-      "icao24": "780591",
-      "callsign": "CSN3516",
+      "icao24": "789235",
+      "callsign": "CPA418",
       "last_region": "south_china_sea",
-      "last_altitude_m": 7802.88
+      "last_altitude_m": 8831.58
     },
     {
-      "icao24": "781934",
-      "callsign": "CSN336",
+      "icao24": "789297",
+      "callsign": "CRK630",
+      "last_region": "south_china_sea",
+      "last_altitude_m": 8503.92
+    },
+    {
+      "icao24": "7807a1",
+      "callsign": "CXA8682",
+      "last_region": "south_china_sea",
+      "last_altitude_m": 6309.36
+    },
+    {
+      "icao24": "88510e",
+      "callsign": "THA476",
       "last_region": "south_china_sea",
       "last_altitude_m": 11582.4
     },
     {
-      "icao24": "86226a",
-      "callsign": "ANA860",
+      "icao24": "7821d0",
+      "callsign": "CES5379",
       "last_region": "south_china_sea",
-      "last_altitude_m": 8519.16
+      "last_altitude_m": 10401.3
     },
     {
-      "icao24": "78928c",
-      "callsign": "CRK548",
+      "icao24": "7c1470",
+      "callsign": "QFA23",
       "last_region": "south_china_sea",
-      "last_altitude_m": 6736.08
+      "last_altitude_m": 11590.02
     },
     {
-      "icao24": "758306",
-      "callsign": "PAL526",
+      "icao24": "782462",
+      "callsign": "CES2793",
       "last_region": "south_china_sea",
-      "last_altitude_m": 9761.22
+      "last_altitude_m": 7917.18
     },
     {
-      "icao24": "770591",
-      "callsign": "ALK455",
+      "icao24": "888152",
+      "callsign": "HVN772",
       "last_region": "south_china_sea",
       "last_altitude_m": 10363.2
     },
     {
-      "icao24": "4002a4",
-      "callsign": "VPCDL",
+      "icao24": "781ff8",
+      "callsign": "CXA833",
       "last_region": "south_china_sea",
-      "last_altitude_m": 8481.06
+      "last_altitude_m": 9174.48
     },
     {
-      "icao24": "78142b",
-      "callsign": "B3358",
+      "icao24": "7504b1",
+      "callsign": "AXM583",
       "last_region": "south_china_sea",
-      "last_altitude_m": 13106.4
+      "last_altitude_m": 10980.42
     },
     {
-      "icao24": "01024d",
-      "callsign": "MSC388",
+      "icao24": "01010c",
+      "callsign": "MSR709",
       "last_region": "eastern_mediterranean",
-      "last_altitude_m": 11277.6
+      "last_altitude_m": 2217.42
     },
     {
-      "icao24": "780eaf",
-      "callsign": "CXA817",
-      "last_region": "south_china_sea",
-      "last_altitude_m": 10058.4
-    },
-    {
-      "icao24": "010296",
-      "callsign": "MSR720",
+      "icao24": "3c66e2",
+      "callsign": "OCN5P",
       "last_region": "eastern_mediterranean",
-      "last_altitude_m": 9144
-    },
-    {
-      "icao24": "4d253b",
-      "callsign": "EWG4T",
-      "last_region": "eastern_mediterranean",
-      "last_altitude_m": 3581.4
+      "last_altitude_m": 1440.18
     }
   ],
   "note": "co2 figures are a MODELED ESTIMATE from live position/altitude data and category-average fuel burn rates -- not measured emissions. dark_aircraft_flags is a low-confidence heuristic: ADS-B receiver coverage gaps are far more common than genuine transponder-off events."
